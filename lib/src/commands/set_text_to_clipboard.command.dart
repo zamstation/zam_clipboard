@@ -8,7 +8,7 @@ class SetTextToClipboardCommand implements AsyncCommand<ClipboardData> {
 
   @override
   Future<ClipboardData> execute() async {
-    final data = ClipboardData(text: text);
+    final data = ClipboardData(text);
     await clipboard.setData(data);
     return data;
   }

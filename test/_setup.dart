@@ -1,4 +1,4 @@
-import '../lib/zam_clipboard.dart';
+import '_.imports.dart';
 
 class MockClipboard extends Clipboard {
   ClipboardData _data = ClipboardData.initialized();

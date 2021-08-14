@@ -1,8 +1,9 @@
 name: zam_clipboard
-version: 0.0.1
+version: 0.1.0
 description: An interface or port for all clipboard services connected via adapters.
 homepage: https://zamstation.com
 repository: https://github.com/zamstation/zam_clipboard
+publish_to: none
 
 environment:
   sdk: ">=2.13.0 <3.0.0"

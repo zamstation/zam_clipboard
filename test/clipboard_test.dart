@@ -5,7 +5,7 @@ void main() {
 }
 
 class ClipboardTestGroup extends TestGroup {
-  static final MockClipboard clipboard = MockClipboard();
+  static final clipboard = MockClipboard();
 
   @override
   get name => runtimeType.toString();
